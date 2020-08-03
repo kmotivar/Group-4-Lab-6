@@ -49,3 +49,117 @@ font-size: 16px;
 font-size: 14px;
 }
 
+/* Background image */
+.back-img {
+background-image: url("images/b2.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.title {
+/* text-align: center; */
+font-size: 6ex;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 2px 1;
+color: white;
+text-align: center;
+flex: 0 0 100%;
+}
+
+
+/* Whole Menu Bar */
+.menu-bar {
+position: sticky;
+top:0;
+padding: 15px 1px;
+flex: 0 0 100%;
+}
+
+.f-rt{
+float: right; 
+}
+
+.f-lt{
+float: left;
+}
+
+.ul {
+list-style-type: none;
+overflow: hidden;
+}
+
+/* Right-side menu elements */
+.menu {
+list-style-type: none;
+color: black;
+text-align: center;
+padding: 1px 15px;
+margin: 1px 40;
+text-decoration: none;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+}
+
+.text {
+text-align: center;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 39px;
+flex: 1 1 100px;
+
+}
+
+/* Content bar - Only Hover idea from W3schools.com and CSS by our Team */
+
+.a1 {
+list-style-type: none;
+background-color: black;
+color: white;
+
+}
+
+.content-panel {
+flex: 0 0 250px;
+}
+
+.all-a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px 16px;
+text-decoration: none;
+}
+
+.all-a:hover {
+background-color: grey;
+color:black;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 10%;
+box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.3);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+.dropdown-content a:hover {
+background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
