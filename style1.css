@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color:rgb(2, 0, 128);
+    background-color: rgb(32, 168, 178);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: rgb(44, 139, 0) 1px solid;
+
+}
+
+h2 {
+    color: darkred;
+    font-size: 25px;
+    font-style: bold;
+}
+p {
+  color: darkviolet;
+  font-size: 25px;
+  font-style: initial;
+}
+
+* {
+    box-sizing: border-box;
+      }
+  
+  .box {
+    display: flex;
+    
+  }
+  
+  .partition {
+    flex: 40%;
+    padding: 10px;
+    
+  }
+body {
+    background-image: url("pictures/t4.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
