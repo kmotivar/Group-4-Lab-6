@@ -49,6 +49,16 @@ font-size: 16px;
 font-size: 14px;
 }
 
+/* For footer */
+footer {
+text-align: center;
+}
+
+.ftr {
+background-color: #eaeaf6;
+padding: 50px 20;
+}
+
 /* Background image */
 .back-img {
 background-image: url("images/b2.jpg");
